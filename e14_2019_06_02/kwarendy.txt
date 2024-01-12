@@ -1,0 +1,5 @@
+kwarendy1 - SELECT nazwa, cena FROM towary LIMIT 4;
+kwarendy2 - SELECT cena FROM towary Where nazwa 'cyrkiel';
+kwarendy3 - SELECT nazwa FROM towary;
+kwarendy4 - SELECT promocja, COUNT(*) AS ilosc FROM towary GROUP BY promocja;
+4
